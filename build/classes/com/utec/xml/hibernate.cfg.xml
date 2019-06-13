@@ -9,5 +9,9 @@
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/adventureworksdatabase2</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property nmae="hibernate.search.autoregister_listeners">false</property>
+        
+        <mapping resource="com/utec/xml/Usuario.hbm.xml"/>
+        
     </session-factory>
 </hibernate-configuration>
